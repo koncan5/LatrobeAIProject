@@ -1,0 +1,26 @@
+<project>
+	<network>
+		<learningRate>0.1</learningRate>
+		<momentum>0.95</momentum>
+		<seed>6969</seed>
+		<neurons>3,2,1</neurons>
+	</network>
+	<trainingSets>
+		<set>0,0,0</set>
+		<set>0,0,1</set>
+		<set>0,1,0</set>
+		<set>0,1,1</set>
+		<set>1,0,0</set>
+		<set>1,0,1</set>
+		<set>1,1,0</set>
+	</trainingSets>
+	<desiredOutcomes> 
+		<set>0</set>
+		<set>0</set>
+		<set>1</set>
+		<set>1</set>
+		<set>0</set>
+		<set>1</set>
+		<set>0</set>
+	</desiredOutcomes>
+</project>

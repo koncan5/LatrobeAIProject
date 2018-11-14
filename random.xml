@@ -1,0 +1,8 @@
+<project>
+	<network>
+		<learningRate>0.1</learningRate>
+		<momentum>0.95</momentum>
+		<seed>6969</seed>
+		<neurons>2,2,1</neurons>
+	</network>
+</project>
